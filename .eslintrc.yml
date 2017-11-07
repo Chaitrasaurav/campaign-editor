@@ -1,0 +1,10 @@
+extends: airbnb
+rules:
+  linebreak-style: 0
+  react/prefer-stateless-function: warn
+  class-methods-use-this: warn
+  no-unused-vars: warn
+  max-len: warn
+env:
+  browser: true
+  node: true

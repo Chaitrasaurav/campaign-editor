@@ -1,0 +1,10 @@
+const ActionTypes = {
+  TOGGLE_SIDENAV: 'TOGGLE_SIDENAV',
+  CHANGE_MARKET: 'CHANGE_MARKET',
+  LOAD_CAMPAIGN: 'LOAD_CAMPAIGN',
+  LOAD_VIEW: 'LOAD_VIEW',
+  SAVE: 'SAVE',
+  PUBLISH: 'PUBLISH',
+};
+
+export default ActionTypes;

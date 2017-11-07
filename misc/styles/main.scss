@@ -1,0 +1,59 @@
+$primary-color: #495397;
+$secondary-color: #FF964E;
+$background-color: #7BCCAC;
+
+$primary-color-bw: #333;
+$background-color-bw: #f0f0f0;
+
+.primary {
+  color: $primary-color;
+}
+.secondary {
+  color: $secondary-color;
+}
+.background {
+  background-color: $background-color;
+}
+
+body {
+  margin: 0;
+  color: $primary-color-bw;
+  background-color: $background-color-bw;
+  font-family: sans-serif;
+}
+
+#app {
+
+  .sidenav {
+    .application-title > div {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .user > div {
+      font-weight: bold;
+    }
+  }
+
+  .main {
+    .appbar-action > div {
+      margin-top: 5px;
+
+      & > span {
+        color: #fff;
+      }
+    }
+
+    .editor {
+      padding: 20px 15px;
+
+      .editor-section {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.market-selector{
+  display:inline-block;
+}
